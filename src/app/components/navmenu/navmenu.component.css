@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #003c94; /* Blue color */
+}
+.logo img {/* Adjust the max-width as needed */
+    height: auto;
+    width: 300px;
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0033A0; /* Blue color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-link {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+}
